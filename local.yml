@@ -3,4 +3,4 @@
   user: root
   tasks:
    - name: install sudo
-     action: apt pkg=sudo state=installed
+     action: apt pkg=sudo state=removed

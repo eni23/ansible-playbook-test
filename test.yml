@@ -1,5 +1,5 @@
 ---
-- hosts: grp01
+- hosts: localhost
   user: root
   tasks:
    - name: do an apt-get moo

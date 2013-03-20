@@ -2,5 +2,5 @@
 - hosts: localhost
   user: root
   tasks:
-   - name: Remove sudo
-     action: apt pkg=sudo state=removed
+   - name: install sudo
+     action: apt pkg=sudo state=installed
